@@ -1,0 +1,193 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  background-color:white;
+}
+
+.container-main{
+  max-width: 900px;
+  margin: auto;
+  background-color: #F5F3F8;
+  position: relative;
+}
+
+/* encabezado --------------- */
+header{
+  width: 100%;
+  height: 100px;
+  background:linear-gradient(70deg,#8E39FC, #E245FC);
+  padding: 10px;
+  padding-top: 25px;
+  border-radius: 0px 0px 7px 7px;
+  position: sticky;
+  top:0;
+  left:0;
+  box-shadow: 1px 0px 7px #B23FFC;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:35px 65px 1fr 25px;
+  align-items:center;
+}
+
+.icono{
+  margin-right: 5px;
+}
+
+.icono img:active{
+  fill:#23475C;
+}
+
+.perfil{
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.perfil img{
+  width: 100%;
+  height:100%;
+  border-radius: 50%;
+}
+
+
+.datos .nombre{
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+
+.datos .estado{
+  font-size:10px;
+  font-weight: 100;
+  color: rgb(231, 231, 231);
+}
+
+
+
+/* contenedor del chat ------------------------------ */
+
+main{
+  width: 100%;
+  padding:10px;
+  margin-top: 10px;
+  background:#F5F3F8;
+}
+
+.box-left{
+  display:grid;
+  justify-content: left;
+  width: 100%;
+  padding: 5px;
+  margin-top:15px;
+}
+
+.box-left p{
+  background:#ECE5F4;
+  max-width:70%;
+  padding:10px 25px;
+  border-radius: 0px 15px 15px 15px;
+  color: #8E39FC;
+}
+
+.box-right{
+  display:grid;
+  justify-content: end;
+  width: 100%;
+  padding: 5px;
+  margin-top:15px;
+  
+}
+
+.box-right p{
+  background:#fff;
+  max-width:100%;
+  padding:10px 25px;
+  border-radius: 15px 0px 15px 15px;
+  color: #E245FC;
+  text-align: right;
+}
+
+.box-right .box-images{
+  display:flex;
+  background:#fff;
+  padding:10px;
+  border-radius:15px 0px 15px 15px;
+}
+
+.box-right .box-text{
+  display:flex;
+  justify-content:right;
+}
+
+.box-images img{
+  width: 50px;
+  border-radius: 15%;
+  margin:2px;
+}
+
+
+/* PIE DE PAGINA -------------- */
+
+footer{
+  width: 100%;
+  height:70px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  position:sticky;
+  bottom: 0;
+  background:#F5F3F8;
+}
+.inputs{
+  width:100%;
+  height:50px;
+  display:grid;
+  align-items: center;
+  border-radius: 25px;
+  display: flex;
+  background:#FFFFFF;
+  border:1px solid #B23FFC;
+}
+
+footer input{
+  width:100%;
+  height:40px;
+  border: 0px;
+  outline: none;
+  padding-left: 10px;
+  background:transparent;
+  font-size: 18px;
+  font-weight: 300;
+  color:#B23FFC;
+}
+
+footer img{
+  width:40px;
+  height:40px;
+  background:#B23FFC;
+  padding: 5px;
+  margin:0px 2px;
+  border-radius: 50%;
+  
+}
+
+footer img:active{
+  border:1px solid #E245FC;
+}
+
+
+
+
+
+
+
+
